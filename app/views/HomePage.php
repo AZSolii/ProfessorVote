@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
 		<meta charset="utf-8">
 		<title>"Welcome To Professor Vote"</title>
@@ -41,71 +41,21 @@
 			</div>
 		</div>
 		<div class="container">
-			<div class="content">
-				<div class="page-header">
-					<h1> Professors Name <small>Masters in dragon fighting</small></h1>
-				</div>
-				<div class="row">
-					<div class="span10">
-						<h2>Classes</h2>
-						<div class="ex">
-							CS 4500000
-						</div>
-						<div class="ex">
-							CS 4500000
-						</div>
-						<div class="ex">
-							CS 4500000
-						</div>
-						<div class="ex">
-							CS 4500000
-						</div>
-						<div class="ex">
-							CS 4500000
-						</div>
-						<div class="ex">
-							CS 4500000
-						</div>
-						<div class="ex">
-							CS 4500000
-						</div>
-						<div class="ex">
-							CS 4500000
-						</div>
-						<div id="footer" class="pagination">
-							<ul>
-								<li class="prev disabled">
-									<a href="#">&larr; Previous</a>
-								</li>
-								<li class="active">
-									<a href="#">1</a>
-								</li>
-								<li>
-									<a href="#">2</a>
-								</li>
-								<li>
-									<a href="#">3</a>
-								</li>
-								<li>
-									<a href="#">4</a>
-								</li>
-								<li>
-									<a href="#">5</a>
-								</li>
-								<li class="next">
-									<a href="#">Next &rarr;</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="span4">
-						<h3>Resources</h3>
-					</div>
-				</div>
+			<!-- Main hero unit for a primary marketing message or call to action -->
+			<div class="hero-unit">
+				<h1>Welcome!</h1>
+				<p>
+					ProfessorVote.com is a new and unique way of rating your College professors and getting a quick and easy view of the best professors at your school.
+				</p>
+				<p>
+					<a class="btn btn-primary btn-large">Learn more &raquo;</a>
+				</p>
 			</div>
+			<hr>
 			<footer>
 				<p>
-					&copy; Company 2012
+					&copy; ProfessorVote.com 2012 --  
+					Page rendered in <strong>{elapsed_time}</strong> seconds
 				</p>
 			</footer>
 		</div>
