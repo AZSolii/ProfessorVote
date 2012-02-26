@@ -40,6 +40,65 @@
 				</div>
 			</div>
 		</div>
+		<div class="container">
+			<div class="content">
+				<div class="page-header">
+					<h1> Available Colleges</h1>
+				</div>
+				<div class="row">
+					<div class="span10">
+						<div class="ex">
+							CS 4500000
+						</div>
+						<pre>
+                            <?php print_r($records);?>
+                        </pre>
+						<?php foreach ($records as $row):
+						?>
+
+						<div class="ex">
+							<?php echo $row -> Name;?>
+						</div>
+						<?php endforeach;?>
+
+						<div id="footer" class="pagination">
+							<ul>
+								<li class="prev disabled">
+									<a href="#">&larr; Previous</a>
+								</li>
+								<li class="active">
+									<a href="#">1</a>
+								</li>
+								<li>
+									<a href="#">2</a>
+								</li>
+								<li>
+									<a href="#">3</a>
+								</li>
+								<li>
+									<a href="#">4</a>
+								</li>
+								<li>
+									<a href="#">5</a>
+								</li>
+								<li class="next">
+									<a href="#">Next &rarr;</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="span4">
+						<h3>Resources</h3>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<p>
+					&copy; Company 2012
+				</p>
+			</footer>
+		</div>
+		<!-- /container -->
 		<!-- Le javascript
 		=============================s===================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
