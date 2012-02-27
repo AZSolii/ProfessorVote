@@ -1,10 +1,1 @@
-<div id="login_form">
-	<h1>Login, Fool!</h1>
-	<?php
-		echo form_open('login/validate_credentials');
-		echo form_input('username', 'Username');
-		echo form_password('password', "Password");
-		echo form_submit('submit', 'Login');
-		echo anchor('login/singup', 'Create Account');
-	?>
-</div>
+<style>    .controls{        margin: 0 0 1em 0;    }</style><div class="container" >	<center>		<h1>Please Login!</h1>	</center>	<form class="form-horizontal">		<fieldset>			<div class="control-group">				<div class="controls">					<?php                    echo form_open('login/validate_credentials');					?>				</div>				<div class="controls">					<?php                    $usernameAttributes = array('id' => 'username', 'class' => 'input-xlarge', 'placeholder' => 'Username', 'type' => 'text');                    echo form_input($usernameAttributes);					?>				</div>				<div class="controls">					<?php                    $passwordAttributes = array('id' => 'password', 'class' => 'input-xlarge', 'placeholder' => 'Password', 'type' => 'text');                    echo form_password($passwordAttributes);					?>				</div>			</div>			<div class="form-actions">				<?php                $submitAttributes = array('id' => 'submit', 'class' => 'btn btn-large btn-primary', 'placeholder' => 'Password', 'value' => 'Login', 'type' => 'submit');                echo form_submit($submitAttributes);                $anchorAttributes = array('id' => 'singup');                echo anchor('login/singup', 'Create Account', $anchorAttributes);				?>			</div>		</fieldset>	</form></div>

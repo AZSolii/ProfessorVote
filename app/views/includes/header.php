@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>"Welcome To Professor Vote"</title>
+		<title>"ProfessorVote.com"</title>
 		<!-- Le styles -->
 		<link href="../css/bootstrap.css" rel="stylesheet">
 		<style>
@@ -21,7 +21,10 @@
 			<div class="navbar-inner">
 				<div class="container">
 					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
-					<a class="brand" href="#">ProfessorVote.com</a>
+					<?php
+                    $homeHeaderAttributes = array('id' => 'homeHeader', 'class' => 'brand');
+                    echo anchor('home', 'ProfessorVote.com', $homeHeaderAttributes);
+					?>
 					<div class="nav-collapse">
 						<form class="form-inline pull-right" style="display: inline; margin-bottom:
 						0; margin-left: 15px">
@@ -32,7 +35,10 @@
 							</ul>
 							<ul class="nav">
 								<li>
-									<a href="#register">Login</a>
+									<?php
+                                    $loginHeaderAttributes = array('id' => 'loginHeader');
+                                    echo anchor('login', 'Login', $loginHeaderAttributes);
+									?>
 								</li>
 							</ul>
 						</form>
@@ -40,4 +46,3 @@
 				</div>
 			</div>
 		</div>
-		
