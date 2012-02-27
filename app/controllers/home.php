@@ -4,7 +4,8 @@ class home extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('HomePage');
+		 $data['main_content'] = 'HomePage';
+		 $this->load->view('includes/template', $data);
 	}
 	
 	function learnMore(){

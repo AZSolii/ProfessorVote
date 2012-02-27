@@ -3,7 +3,7 @@
 class ProfessorPage extends CI_Controller{
 	
 	function index(){
-		$this->load->view('ProfessorPage');
-		
+		$data['main_content'] = 'ProfessorPage';
+		$this->load->view('includes/template', $data);
 	}
 }
