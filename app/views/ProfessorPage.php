@@ -56,9 +56,6 @@
 					</ul>
 				</div>
 			</div>
-			<div class="span4">
-				<h3>Resources</h3>
-			</div>
 		</div>
 	</div>
 </div>
