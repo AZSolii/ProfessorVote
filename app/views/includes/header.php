@@ -22,8 +22,8 @@
 				<div class="container">
 					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
 					<?php
-                    $homeHeaderAttributes = array('id' => 'homeHeader', 'class' => 'brand');
-                    echo anchor('home', 'ProfessorVote.com', $homeHeaderAttributes);
+					$homeHeaderAttributes = array('id' => 'homeHeader', 'class' => 'brand');
+					echo anchor('home', 'ProfessorVote.com', $homeHeaderAttributes);
 					?>
 					<div class="nav-collapse">
 						<form class="form-inline pull-right" style="display: inline; margin-bottom:
@@ -36,8 +36,8 @@
 							<ul class="nav">
 								<li>
 									<?php
-                                    $loginHeaderAttributes = array('id' => 'loginHeader');
-                                    echo anchor('login', 'Login', $loginHeaderAttributes);
+									$loginHeaderAttributes = array('id' => 'loginHeader');
+									echo anchor('login', 'Login', $loginHeaderAttributes);
 									?>
 								</li>
 							</ul>

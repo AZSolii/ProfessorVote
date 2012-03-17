@@ -8,13 +8,13 @@
 				<?php foreach ($records as $row):
 				?>
 				<?php
-                $test = $row -> Name;
+				$test = $row -> Name;
 				?>
 				<div class="ex" id='<?php echo $row -> Name;?>'>
 					<?php echo $row -> Name;?>
 				</div>
-				
 				<?php endforeach;?>
+				
 			</div>
 		</div>
 	</div>
